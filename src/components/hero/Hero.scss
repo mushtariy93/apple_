@@ -1,0 +1,22 @@
+.hero {
+  height: 670px;
+
+  .bottom {
+    transform: translateY(350px);
+  }
+  &__body {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &__btn {
+    display: flex;
+    gap: 20px;
+  }
+  .botttom__content {
+    transform: translateY(350px);
+  }
+}

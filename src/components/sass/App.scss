@@ -1,0 +1,31 @@
+.app__hero {
+  display: grid;
+  margin-bottom: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "hero1 hero1"
+    "hero2 hero2"
+    "hero3 hero3"
+    "hero4 hero5";
+  gap: 10px;
+}
+
+.app__hero > :nth-child(1) {
+  grid-area: hero1;
+}
+
+.app__hero > :nth-child(2) {
+  grid-area: hero2;
+}
+
+.app__hero > :nth-child(3) {
+  grid-area: hero3;
+}
+
+.app__hero > :nth-child(4) {
+  grid-area: hero4;
+}
+
+.app__hero > :nth-child(5) {
+  grid-area: hero5;
+}
